@@ -1,4 +1,5 @@
-using Entities.Model.EfCoreModel;
+//using Entities.Model.EfCoreModel;
+using Entities.Model.NHibarnateModel;
 
 namespace DAL.Interface
 {

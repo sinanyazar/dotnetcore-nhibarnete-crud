@@ -3,7 +3,7 @@ using Entities.Model.EfCoreModel;
 
 namespace DAL.ORM.EntityFramework
 {
-    public class EfCategoryRepository : EfBaseRepository<Category, EfCoreContext>, ICategoryDAL
+    public class EfCategoryRepository : EfBaseRepository<Category, EfCoreContext>
     {
         
     }
