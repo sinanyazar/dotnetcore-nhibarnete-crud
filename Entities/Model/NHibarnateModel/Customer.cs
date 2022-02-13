@@ -2,9 +2,9 @@
 {
     public class Customer
     {
-        public string CustomerId { get; set; }
-        public string ContactName { get; set; }
-        public string CompanyName { get; set; }
-        public string City { get; set; }
+        public virtual string CustomerId { get; set; }
+        public virtual string ContactName { get; set; }
+        public virtual string CompanyName { get; set; }
+        public virtual string City { get; set; }
     }
 }
